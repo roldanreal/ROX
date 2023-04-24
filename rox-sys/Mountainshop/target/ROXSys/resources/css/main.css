@@ -1,0 +1,267 @@
+@CHARSET "ISO-8859-1";
+
+/*@import "compass/css3"; */
+
+/*@import url(http://fonts.googleapis.com/css?family=Raleway:100,300,400,700); */
+
+.error {
+	color: red;
+}
+
+.red {
+    color: red;
+}
+
+.one-line {
+	display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+  	max-width: 50%;
+}
+
+.highchartContainer {
+	width:25%;
+}
+
+.table {
+	max-width: none;
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
+.returnInput {
+	width: 30px;	
+}
+
+.inputReceipt {
+	width: 100px;
+}
+
+.half {
+	width: 50%;
+}
+
+.posReceipt {
+	font-family: "courier";
+	text-align: center;
+}
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: 	#4169E1;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+#rightDiv {
+	border-right: 3px solid gray; 
+}
+
+#leftDiv {
+	border-left: 3px solid gray; 
+}
+
+#purchaseItemButton {
+	float: right;
+}
+
+#receiptDiv {
+	margin-top: 15%;
+}
+
+#custom-controls {
+	font-size: medium;
+}
+
+.right {
+	float: right;
+	text-align: right;
+}
+
+.left {
+	float: left;
+	text-align: left;
+}
+
+.topmargin {
+	margin-top:15px;
+}
+
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+    
+}
+
+#rmcMap {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 500px;
+    right: 25%;
+}
+
+#mapContainer {  
+	width:100%;
+	height: 500px;
+}
+
+#graphContainer, #gaugeContainer {
+	display: inline-block;
+	float:left;
+    width:25%;
+    height: 250px;
+}
+
+#barGraphContainer1 {
+    float: right;
+    width: 25%;
+    height: 250px;
+    position: relative;
+    bottom: 500px;
+    display: inline-block;
+}
+
+#barGraphContainer2 {
+    float: right;
+    width: 25%;
+    height: 250px;
+    position: relative;
+    bottom: 250px;
+    display: inline-block;
+    right: -25%;
+}
+
+<!-- Override header in RMC page-->
+.rmc-header {
+	padding-bottom: 0px;	
+}
+
+body {
+font-family:'Raleway';
+}
+
+/*.wrapper {
+width:95%;
+} */
+
+.header-container {
+  color: #fff;
+  height: 50px;
+  background: black;
+  background:rgba(0, 0, 0, .5);
+  border-bottom: solid 1px black;
+}
+
+.header {
+  margin:0 auto;
+}
+
+.header h1 {
+  font-weight:400;
+  margin:0;
+  margin-left:.5em;
+  padding-top:5px;
+}
+
+.blocks {
+    margin: 0 auto;
+    display: inline-block;
+    background: #f16bf3;
+    position: relative;
+    bottom: 220px;
+}
+
+.block {
+  float:left;
+  margin-top:0;
+  /*position:relative;*/
+  /*background: black;*/
+  color: #fff;
+  width: 12.5%;
+ /* margin-right:1%; */
+  min-width:155px;
+  height: 220px;
+  /*box-shadow: 10px 10px 0 rgba(0, 0, 0, .3);*/ 
+  text-align: center;
+  overflow:hidden;
+  
+  -webkit-backface-visibility: hidden;
+  
+  border:solid 1px #000;
+}
+
+
+.heading {
+  height:30px;
+  position:relative;
+  font-size: 1.4em;
+  width:100%;
+  /*background:#f16bf3;*/
+  /*background:#00FFFF;*/
+  padding: 25px 0;
+  border-bottom: solid 1px;
+}
+
+.num, .currentView {
+position:relative;
+/*background:#f16bf3;*/
+font-size: 1.5em;
+padding-top: 40px;
+}
+
+.green {
+/*background: black;*/	
+background: #5eda37;
+}
+
+.orange {
+color: #f66538;
+}
+
+.purple {
+color: #f16bf3;
+}
+
+.yellow {
+color: #e3ea77;
+}
+
+.blue {
+background: #7ca6de;
+/*color: #7ca6de;*/
+}
+
+.black {
+	color: black;
+}
+
+/*High charts*/
+.highcharts-yaxis-grid .highcharts-grid-line {
+	display: none;
+}
